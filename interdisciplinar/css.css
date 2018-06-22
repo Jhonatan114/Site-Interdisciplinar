@@ -1,0 +1,196 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(110, 94, 197);
+}
+
+li {
+    float: left;
+    border-right:white 1px solid;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img {
+    width:750px;
+    height:400px;
+    position:absolute;
+    top:30%;
+    left:26%;
+    margin-top:-50px;
+    margin-left:-50px;
+}
+
+#hh3 {
+    text-align: center;
+    font-family: Arial, "Helvetica", sans-serif;
+    color:grey;
+    font-size: 175%;
+
+}
+
+#hh4 {
+    text-align: center;
+    font-family: Arial, "Helvetica", sans-serif;
+    color:grey;
+    font-size: 100%;
+    text-align: left;
+    margin-right: 1000px;
+    padding: 0.5%;
+    line-height: 5px;
+
+}
+
+#hh5 {
+    text-align: center;
+    font-family: Arial, "Helvetica", sans-serif;
+    color:grey;
+    font-size: 100%;
+    text-align: center;
+    margin-right: 500px;
+    line-height: 10px;
+
+}
+
+
+* {font-family: Arial, "Helvetica", sans-serif
+
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: rgb(110, 94, 197);
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color:grey;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    position:center;
+    width: 500px;
+    height: 500px;
+    right: 400px;
+    font-family: Arial, "Helvetica", sans-serif;
+    color:grey;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+#hh6 {
+    text-align: center;
+    font-family: Arial, "Helvetica", sans-serif;
+    color:grey;
+    font-size: 175%;
+}
+
+
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 25px;
+}
